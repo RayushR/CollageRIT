@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2? family=Poppins:wght@100;200;300;400;600;700&display=swap">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <section class="sub-header">
+<nav>
+    <a href="index.html"> <img src="./logo21.jpeg" > </a>
+    <div class="nav-links" id="navlinks">
+        <i class="fa fa-times" onclick="hidemenu()"></i>
+        <ul>
+            <li></a><a href="./index.html">HOME</a> </li>
+            <li></a><a href="./about.html">ABOUT</a> </li>
+            <li></a><a href="./course.html">COURSE</a> 
+            </li>
+            <li></a><a href="./blog.html">BLOG</a> </li>
+            <li></a><a href="./gallery.html">GALLERY</a> </li>
+            <li></a><a href="./staff.html">STAFF</a> </li>
+            <li></a><a href="./download.html">DOWNLOAD</a> </li>
+          
+            <li></a><a href="./contant.html">CONTACT</a> </li>
+            <!-- <li></a><a href="">HOME</a> </li> -->
+        </ul>
+    </div>
+    <i class="fa fa-bars" onclick="showmenu()"></i>
+</nav>
+<h1>About Us</h1>
+    </section>
+<!-- ------------------about us contant------- -->
+<section class="about-us">
+<div class="row">
+    <div class="about-col">
+        <h1>We are the Delhi Best University</h1>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ea officiis porro quisquam delectus repellendus consequatur beatae quae ipsam. Nihil earum accusamus mollitia! Eveniet inventore architecto impedit ipsum. Consectetur, perferendis omnis!</p>
+       <a href="https://dseu.ac.in/" class="hero-btn red-btn">EXPLORE NOW</a>
+    </div>
+    <div class="about-col">
+        <img src="./dseu.jpg" alt="">
+    </div>
+</div>
+</section>
+<hr>
+<!-- ------------------footer------------- -->
+<section class="footer">
+    
+    <h4>About Us</h4>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+        Sed rem molestias illo  , ut tempore
+         voluptas,<br> cum eaque doloremque repudiandae excepturi accusantium.</p>
+<div class="icons">
+    <i class="fa fa-facebook"></i>
+    <i class="fa fa-twitter"></i>
+    <i class="fa fa-instagram"></i>
+    <i class="fa fa-linkedin"></i>
+    <i class="fa fa-youtube-play"></i>
+</div>
+
+<p class="copyright"> <i class="fa fa-heart-o"></i> Design by dvlpr @@yUSh </p>
+</section>
+
+
+
+
+<!-- -----------------javaScript--------- for togel menu----- -->
+<script>
+var navlinks=document.getElementById("navlinks");
+function showmenu(){
+    navlinks.style.right="0";
+}
+function hidemenu(){
+    navlinks.style.right="-200px";
+}
+</script>
+</body>
+</html>
